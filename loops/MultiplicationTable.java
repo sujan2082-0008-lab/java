@@ -1,3 +1,4 @@
+//4. Write a program to print the multiplication table of a given number
 package oop.loops;
 import java.util.Scanner;
 public class MultiplicationTable {
