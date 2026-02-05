@@ -10,6 +10,7 @@ public class MultiplicationTable {
         number = scanner.nextInt();
         System.out.print("Enter the maximum term: ");
         term = scanner.nextInt();
+
         //using for loop
         System.out.println("\nUsing for loop\n");
         for(i=1;i<=term;i++){
@@ -23,6 +24,7 @@ public class MultiplicationTable {
             j++;
         }
 
+        //using dowhile loop
         System.out.println("\nUsing do while loop\n");
         do{
             System.out.println(number + "*" + k + "=" +  number * k);
