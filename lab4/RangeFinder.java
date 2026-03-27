@@ -2,15 +2,15 @@
 //and 20. Initialize n with a value (e.g., 15) and print the result of the logic: (n > 10) && (n
 //        < 20).
 package oop.lab4;
-
+import java.util.Scanner;
 public class RangeFinder {
     public static void main(String[] args){
-        int number = 15;
-        if(number>10 && number<20){
-            System.out.println("true");
-        }
-        else{
-            System.out.println("False");
-        }
+        int number;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        number = scanner.nextInt();
+        boolean result = number > 10 && number < 20;
+        System.out.println(result);
+        scanner.close();
     }
 }

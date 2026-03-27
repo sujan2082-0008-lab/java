@@ -11,7 +11,7 @@ public class CheckMarks {
             System.out.println("Wow , You got "+marks+". You are passed");
         }
         else{
-            System.out.println("You only got "+marks+". You are fail.");
+            System.out.println("You got only "+marks+". You are fail.");
         }
         scanner.close();
     }

@@ -22,7 +22,7 @@ public class BillSplitter {
 
         System.out.println("< --- Sujan Restaurant --- >");
         System.out.println("Bill Amount: "+ billAmount);
-        System.out.println("Tip Amount( "+tipPercentage+"%): "+tipAmount);
+        System.out.println("Tip Amount("+tipPercentage+"%): "+tipAmount);
         System.out.println("Total Amount with tip: "+ totalAmount);
         System.out.println("Amount to be paid by each: "+ splitAmount);
         System.out.println("< --- Thank you --->");
